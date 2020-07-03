@@ -8,8 +8,12 @@ interface CreepMemory {
 }
 
 interface Memory {
-  uuid: number;
-  log: any;
+  state: any;
+  orders: string[];
+  requests: string[];
+  goals: string[];
+  version: string;
+  repositories: { [id: string]: { [id: string]: any } };
 }
 
 // `global` extension samples

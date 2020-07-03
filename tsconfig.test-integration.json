@@ -12,7 +12,8 @@
     "noImplicitReturns": true,
     "noImplicitAny": false,
     "allowSyntheticDefaultImports": true,
-    "allowUnreachableCode": false
+    "allowUnreachableCode": false,
+    "emitDecoratorMetadata": true
   },
   "exclude": [
     "node_modules"
